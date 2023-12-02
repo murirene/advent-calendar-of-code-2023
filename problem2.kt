@@ -37,13 +37,6 @@ fun parseGame(line:String): Game {
 
     return Game(id, hands)
 }  
-/*
-fun part1(val game:Game):Int {
-    var sum:Int = 0
-
-   return sum  
-}
-*/
 
 fun getMaxHands(hands:ArrayList<Hand>):Hand {
     var maxHand = Hand(0, 0, 0)
